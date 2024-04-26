@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Gestor-de-Limite.DataAccess/1.0.0": {
+        "dependencies": {
+          "Gestor-de-Limite.Models": "1.0.0"
+        },
+        "runtime": {
+          "Gestor-de-Limite.DataAccess.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.303.22": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.303.22"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.302.23": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.303.22"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.302.23"
+          }
+        }
+      },
+      "Gestor-de-Limite.Models/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.302.23"
+        },
+        "runtime": {
+          "Gestor-de-Limite.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gestor-de-Limite.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.303.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-USqdh6tXY6o/M+UQ/Lnkcqt4NnGSgyzXZPnKx98LmZzgdqJTnlPAnvTKFV3klp0k13oqhqASWv0hGxr06hg/9g==",
+      "path": "awssdk.core/3.7.303.22",
+      "hashPath": "awssdk.core.3.7.303.22.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.302.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SxRTCGU95GNZFy/Vd63ldrlDIX5zbeWFB4ydfnAy9yeutupwDz+tURXdekqhi5AkM/VliY0zWTa9XqgB5n7Q6Q==",
+      "path": "awssdk.dynamodbv2/3.7.302.23",
+      "hashPath": "awssdk.dynamodbv2.3.7.302.23.nupkg.sha512"
+    },
+    "Gestor-de-Limite.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

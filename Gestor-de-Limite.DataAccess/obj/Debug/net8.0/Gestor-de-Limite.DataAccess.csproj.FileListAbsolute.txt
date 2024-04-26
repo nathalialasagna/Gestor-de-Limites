@@ -1,0 +1,15 @@
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\bin\Debug\net8.0\Gestor-de-Limite.DataAccess.deps.json
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\bin\Debug\net8.0\Gestor-de-Limite.DataAccess.dll
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\bin\Debug\net8.0\Gestor-de-Limite.DataAccess.pdb
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\bin\Debug\net8.0\Gestor-de-Limite.Models.dll
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\bin\Debug\net8.0\Gestor-de-Limite.Models.pdb
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\Gestor-de-Limite.DataAccess.csproj.AssemblyReference.cache
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\Gestor-de-Limite.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\Gestor-de-Limite.DataAccess.AssemblyInfoInputs.cache
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\Gestor-de-Limite.DataAccess.AssemblyInfo.cs
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\Gestor-de-Limite.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\Gestor-de-Limite.DataAccess.csproj.CopyComplete
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\Gestor-de-Limite.DataAccess.dll
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\refint\Gestor-de-Limite.DataAccess.dll
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\Gestor-de-Limite.DataAccess.pdb
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\ref\Gestor-de-Limite.DataAccess.dll

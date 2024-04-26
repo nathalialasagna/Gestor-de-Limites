@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor-de-Limites", "Gestor-de-Limites\Gestor-de-Limites.csproj", "{6DBA9F4C-3194-4E4E-AC3D-11D024DB467B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor-de-Limite.DataAccess", "Gestor-de-Limite.DataAccess\Gestor-de-Limite.DataAccess.csproj", "{24546120-9831-424E-BA40-9C0FD3F7EF29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor-de-Limite.Models", "Gestor-de-Limite.Models\Gestor-de-Limite.Models.csproj", "{05F35E6A-37F0-4100-8D2C-22B144FBF930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DBA9F4C-3194-4E4E-AC3D-11D024DB467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBA9F4C-3194-4E4E-AC3D-11D024DB467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBA9F4C-3194-4E4E-AC3D-11D024DB467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBA9F4C-3194-4E4E-AC3D-11D024DB467B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24546120-9831-424E-BA40-9C0FD3F7EF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24546120-9831-424E-BA40-9C0FD3F7EF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24546120-9831-424E-BA40-9C0FD3F7EF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24546120-9831-424E-BA40-9C0FD3F7EF29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F35E6A-37F0-4100-8D2C-22B144FBF930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F35E6A-37F0-4100-8D2C-22B144FBF930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F35E6A-37F0-4100-8D2C-22B144FBF930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F35E6A-37F0-4100-8D2C-22B144FBF930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1712FEA9-63F0-4221-8D9E-54FA80C2CAAE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YS6QFZ1NgT+4jSlIFjEjmWYFoizAbCzE7Ad0fLLMy3YMEbsTb+6LZLz76mx8YD3I2Z0oNjhvol3a4NxvEVg8ww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\natha\\OneDrive\\Documentos\\Gestor-de-Limites\\Gestor-de-Limite.DataAccess\\Gestor-de-Limite.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\natha\\.nuget\\packages\\awssdk.core\\3.7.303.22\\awssdk.core.3.7.303.22.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.302.23\\awssdk.dynamodbv2.3.7.302.23.nupkg.sha512"
+  ],
+  "logs": []
+}

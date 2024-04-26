@@ -1,0 +1,12 @@
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\bin\Debug\net8.0\Gestor-de-Limite.Models.deps.json
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\bin\Debug\net8.0\Gestor-de-Limite.Models.dll
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\bin\Debug\net8.0\Gestor-de-Limite.Models.pdb
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\Gestor-de-Limite.Models.csproj.AssemblyReference.cache
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\Gestor-de-Limite.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\Gestor-de-Limite.Models.AssemblyInfoInputs.cache
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\Gestor-de-Limite.Models.AssemblyInfo.cs
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\Gestor-de-Limite.Models.csproj.CoreCompileInputs.cache
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\Gestor-de-Limite.Models.dll
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\refint\Gestor-de-Limite.Models.dll
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\Gestor-de-Limite.Models.pdb
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\ref\Gestor-de-Limite.Models.dll
