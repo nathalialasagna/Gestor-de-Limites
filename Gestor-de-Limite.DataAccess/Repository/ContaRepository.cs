@@ -16,6 +16,8 @@ public class ContaRepository : IContaRepository
 
     public async Task Add(Conta conta)
     {
+        conta.Numero = RetornaConta(conta.Numero);
+
         await _context.SaveAsync(conta);
     }
 
@@ -23,22 +25,18 @@ public class ContaRepository : IContaRepository
     {
         await _context.SaveAsync(conta);
     }
-    public async Task<IEnumerable<Conta?>> GetAll()
-    {
-        var contas = await _context.ScanAsync<Conta>(default).GetRemainingAsync();
-
-        return contas;
-    }
 
     public async Task<Conta?> Get(string agencia, string conta)
     {
-        var contas = await _context.QueryAsync<Conta>(agencia, QueryOperator.Equal, new object[] { conta }).GetRemainingAsync();
+        var contas = await _context.QueryAsync<Conta>(agencia, QueryOperator.Equal, new object[] { RetornaConta(conta) }).GetRemainingAsync();
 
         return contas.FirstOrDefault();
     }
 
     public async Task Remove(string agencia, string conta)
     {
-        await _context.DeleteAsync<Conta>(agencia, conta);
+        await _context.DeleteAsync<Conta>(agencia, RetornaConta(conta));
     }
+
+    public static string RetornaConta(string conta) => string.Concat("Conta#", conta);
 }

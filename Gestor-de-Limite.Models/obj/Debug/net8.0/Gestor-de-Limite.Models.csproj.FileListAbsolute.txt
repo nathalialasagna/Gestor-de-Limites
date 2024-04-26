@@ -10,3 +10,4 @@ C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj
 C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\refint\Gestor-de-Limite.Models.dll
 C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\Gestor-de-Limite.Models.pdb
 C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\ref\Gestor-de-Limite.Models.dll
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.Models\obj\Debug\net8.0\Gestor-de-Limite.Models.sourcelink.json

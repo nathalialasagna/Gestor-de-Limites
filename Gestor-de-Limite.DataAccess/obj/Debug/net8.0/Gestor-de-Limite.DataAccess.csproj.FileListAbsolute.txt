@@ -13,3 +13,4 @@ C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess
 C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\refint\Gestor-de-Limite.DataAccess.dll
 C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\Gestor-de-Limite.DataAccess.pdb
 C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\ref\Gestor-de-Limite.DataAccess.dll
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limite.DataAccess\obj\Debug\net8.0\Gestor-de-Limite.DataAccess.sourcelink.json

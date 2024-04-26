@@ -30,6 +30,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/natha/OneDrive/Documentos/Gestor-de-Limites/Gestor-de-Limites/Areas/Admin/Views/Conta/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documentos/Gestor-de-Limites/Gestor-de-Limites/Areas/Admin/Views/Conta/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/natha/OneDrive/Documentos/Gestor-de-Limites/Gestor-de-Limites/Areas/Admin/Views/Conta/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,12 +54,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Documentos/Gestor-de-Limites/Gestor-de-Limites/Areas/Client/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/natha/OneDrive/Documentos/Gestor-de-Limites/Gestor-de-Limites/Areas/Client/Views/Transacao/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFRyYW5zYWNhb1xDcmVhdGUuY3NodG1s
+[C:/Users/natha/OneDrive/Documentos/Gestor-de-Limites/Gestor-de-Limites/Areas/Client/Views/Pix/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFBpeFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/natha/OneDrive/Documentos/Gestor-de-Limites/Gestor-de-Limites/Areas/Client/Views/Transacao/Index.cshtml]

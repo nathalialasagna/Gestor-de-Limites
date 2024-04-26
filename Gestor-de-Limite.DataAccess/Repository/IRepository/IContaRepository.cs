@@ -6,7 +6,6 @@ public interface IContaRepository
 {
     Task Add(Conta conta);
     Task Update(Conta conta);
-    Task<IEnumerable<Conta?>> GetAll();
     Task<Conta?> Get(string agencia, string conta);
     Task Remove(string agencia, string conta);
 }

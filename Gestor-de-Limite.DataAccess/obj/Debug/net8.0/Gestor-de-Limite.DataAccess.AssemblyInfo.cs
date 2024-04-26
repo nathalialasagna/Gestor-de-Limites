@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gestor-de-Limite.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7ccbf60a6d5d90b7212195a9db12f6e8417357e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gestor-de-Limite.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gestor-de-Limite.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

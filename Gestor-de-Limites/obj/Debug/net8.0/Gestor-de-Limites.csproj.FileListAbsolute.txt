@@ -242,3 +242,4 @@ C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limites\bin\Debug
 C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limites\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limites\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limites\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\natha\OneDrive\Documentos\Gestor-de-Limites\Gestor-de-Limites\obj\Debug\net8.0\Gestor-de-Limites.sourcelink.json

@@ -14,11 +14,20 @@ public class ContaController : Controller
         _contaRepository = contaRepository;
     }
 
-    public async Task<IActionResult> Index()
+    public IActionResult Index()
     {
-        var contas = await _contaRepository.GetAll();
+        return View();
+    }
 
-        return View(contas);
+    [HttpPost]
+    public async Task<IActionResult> Index(string? numeroAgencia, string? numeroConta)
+    {
+        var contaExistente = await _contaRepository.Get(numeroAgencia!, numeroConta!);
+
+        if(contaExistente != null)
+            contaExistente.Numero = contaExistente.Numero.Split('#').Last();
+
+        return View(contaExistente);
     }
 
     public IActionResult Create()
@@ -31,15 +40,72 @@ public class ContaController : Controller
     {
         var contaExistente = await _contaRepository.Get(conta.Agencia, conta.Numero);
 
-        if (contaExistente != null) ModelState.AddModelError("", "Conta já existe");
+        if (contaExistente != null) ModelState.AddModelError("", "Conta já existe.");
 
         if (!ModelState.IsValid) return View();
 
         await _contaRepository.Add(conta);
-        
+
         TempData["success"] = "Conta criada com sucesso.";
 
         return RedirectToAction("Index");
     }
 
+    public async Task<IActionResult> Edit(string? numeroAgencia, string? numeroConta)
+    {
+        if (numeroAgencia == null && numeroConta == null) return NotFound();
+
+        var contaExistente = await _contaRepository.Get(numeroAgencia!, numeroConta!);
+
+        if (contaExistente == null) return NotFound();
+        
+        contaExistente.Numero = contaExistente.Numero.Split('#').Last();
+
+        return View(contaExistente);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Edit(Conta conta)
+    {
+        if (!ModelState.IsValid) return View();
+        var contaExistente = await _contaRepository.Get(conta.Agencia, conta.Numero);
+
+        if (contaExistente == null) ModelState.AddModelError("", "Conta não existe.");
+
+        await _contaRepository.Update(conta);
+
+        TempData["success"] = "Limite criada com sucesso.";
+
+        return RedirectToAction("Index");
+    }
+
+    public async Task<IActionResult> Delete(string? numeroAgencia, string? numeroConta)
+    {
+        if (numeroAgencia == null && numeroConta == null) return NotFound();
+
+        var contaExistente = await _contaRepository.Get(numeroAgencia!, numeroConta!);
+
+        if (contaExistente != null)
+            contaExistente.Numero = contaExistente.Numero.Split('#').Last();
+
+        if (contaExistente == null) return NotFound();
+
+        return View(contaExistente);
+    }
+
+    [HttpPost, ActionName("Delete")]
+    public async Task<IActionResult> DeletePost(string? numeroAgencia, string? numeroConta)
+    {
+        if (numeroAgencia == null && numeroConta == null) return NotFound();
+
+        var contaExistente = _contaRepository.Get(numeroAgencia!, numeroConta!);
+
+        if (contaExistente == null) return NotFound();
+
+        await _contaRepository.Remove(numeroAgencia!, numeroConta!);
+
+        TempData["success"] = "Conta deletada com sucesso.";
+
+        return RedirectToAction("Index");
+    }
 }

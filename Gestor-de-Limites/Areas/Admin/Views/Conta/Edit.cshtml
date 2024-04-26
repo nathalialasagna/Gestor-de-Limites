@@ -1,0 +1,43 @@
+﻿@model Conta
+
+@{
+    ViewData["Title"] = "Editar Limite";
+}
+
+<h1>Editar Limite</h1>
+<hr />
+<div class="row">
+    <div class="col-md-1">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Agencia" class="control-label"></label>
+                <input asp-for="Agencia" class="form-control-plaintext" readonly />
+                <span asp-validation-for="Agencia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Numero" class="control-label"></label>
+                <input asp-for="Numero" class="form-control-plaintext" readonly />
+                <span asp-validation-for="Numero" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Documento" class="control-label"></label>
+                <input asp-for="Documento" class="form-control-plaintext" readonly />
+                <span asp-validation-for="Documento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Limite" class="control-label"></label>
+                <input asp-for="Limite" class="form-control" />
+                <span asp-validation-for="Limite" class="text-danger"></span>
+            </div>
+            <div class="w-75 btn-group mt-2">
+                <input type="submit" value="Salvar" class=" btn btn-primary rounded btn-sm"/>
+                <a asp-action="Index" class="btn btn-secondary btn-sm rounded btn-sm mx-2">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>  
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

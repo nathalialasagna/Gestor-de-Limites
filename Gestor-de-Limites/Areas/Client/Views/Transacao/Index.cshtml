@@ -1,11 +1,10 @@
-﻿@model List<Transacao>
-@{
+﻿@{
     ViewData["Title"] = "Index";
 }
 
 <h1>Transações</h1>
 <br />
 <p>
-    <a asp-action="Create" class="btn btn-primary mx-2"> Fazer Pix </a>
+    <a asp-area="Client" asp-controller="Pix" asp-action="Create" class="btn btn-primary mx-2"> Enviar Pix </a>
 </p>
 

@@ -3,6 +3,25 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Bem-vindo ao Banco KRT!</h1>
+    <div class="row m-5">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Gestor de Limites</h5>
+                    <p class="card-text">Área Admin para gestão de contas e Limites.</p>
+                    <a class="btn btn-primary" asp-area="Admin" asp-controller="Conta" asp-action="Index">Contas</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Fazer transações</h5>
+                    <p class="card-text">Área do cliente para realizar transações.</p>
+                    <a class="btn btn-primary" asp-area="Client" asp-controller="Transacao" asp-action="Index">Transações</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
