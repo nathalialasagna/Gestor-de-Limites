@@ -1,6 +1,7 @@
 ﻿using Amazon.DynamoDBv2.DataModel;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.InteropServices;
 
 namespace Gestor_de_Limite.Models.Models;
 
@@ -21,6 +22,7 @@ public class Conta
     public string Documento { get; set; } = default!;
 
     [Required(ErrorMessage = "Campo obrigatório.")]
+    [Range(1.0, Double.MaxValue, ErrorMessage = "Valor abaixo do permitido")]
     [DynamoDBProperty("Limite")]
     public decimal Limite { get; set; }
 }
